@@ -1,6 +1,5 @@
 import React from 'react';
 import './Messages.css';
-import messages from '../Messages/bgimage.jpg';
 import protap from '../Messages/protap.jpg';
 
 const Messages =()=>{
