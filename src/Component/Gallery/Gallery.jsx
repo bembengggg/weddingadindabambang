@@ -21,18 +21,18 @@ const Gallery =()=>{
         <div className='wrap'>
            <img className='imgbg' alt='imgbg'src={gallery}/>
            <div className='grid'>
-           <img alt='imgbg'src={bambang10}/>
-           <img alt='imgbg'src={bambang4}/>
-           <img alt='imgbg'src={bambang3}/>
-           <img alt='imgbg'src={bambang11}/>
-           <img alt='imgbg'src={bambang5}/>
-           <img alt='imgbg'src={bambang12}/>
-           <img alt='imgbg'src={bambang7}/>
-           <img alt='imgbg'src={bambang8}/>
-           <img alt='imgbg'src={bambang9}/>
-           <img alt='imgbg'src={bambang1}/>
-           <img alt='imgbg'src={bambang2}/>
-           <img alt='imgbg'src={bambang6}/>
+           <img alt='imgbg1'src={bambang10}/>
+           <img alt='imgbg2'src={bambang4}/>
+           <img alt='imgbg3'src={bambang3}/>
+           <img alt='imgbg4'src={bambang11}/>
+           <img alt='imgbg5'src={bambang5}/>
+           <img alt='imgbg6'src={bambang12}/>
+           <img alt='imgbg7'src={bambang7}/>
+           <img alt='imgbg8'src={bambang8}/>
+           <img alt='imgbg9'src={bambang9}/>
+           <img alt='imgbg10'src={bambang1}/>
+           <img alt='imgbg11'src={bambang2}/>
+           <img alt='imgbg12'src={bambang6}/>
             
 
            </div>
