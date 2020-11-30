@@ -6,8 +6,8 @@ import protap from '../Messages/protap.jpg';
 const Messages =()=>{
     return(
         <div className='wrapcover'>
-            <img className='img2' alt='img2' src={protap}/>
-           <img className='img1' alt='img1' src={messages}/>
+            <img className='img2' src={protap}/>
+           <img className='img1' src={messages}/>
          </div>
 
 
