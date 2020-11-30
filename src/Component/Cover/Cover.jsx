@@ -18,9 +18,8 @@ class Cover extends Component{
     return(
         
         <div className='wrapcover'>
-           <img className='imgcover' src={cover}/>  
+           <img className='imgcover' src={cover} alt='imgcover'/>  
            <div className='imgperson'>
-               {/* <img className='imgpict' src={abadi}/> */}
             </div>
             <div className='imgperson1'>
             </div>

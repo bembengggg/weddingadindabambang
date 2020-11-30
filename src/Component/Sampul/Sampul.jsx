@@ -54,7 +54,7 @@ class Sampul extends Component{
         return (
           
           <div className='container'>
-          <img className='buku' src={container}/>
+          <img className='buku' alt='buku' src={container}/>
           <div className='wrappernama'>
           <div className='bkslabelnama'>
               <div className='wrapperin'>

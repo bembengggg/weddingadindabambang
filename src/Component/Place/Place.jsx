@@ -30,7 +30,7 @@ const Place =()=>{
     return(
 
         <div className='wrapcover'>
-           <img className='img2' src={place}/>
+           <img className='img2' alt='img2' src={place}/>
            <div className='bksrangkaian'>
                 <div className='bksrangkaian1'>Rangkaian Acara</div>
            </div>
@@ -52,7 +52,7 @@ const Place =()=>{
                         <label className='txthari'>SABTU</label>
                     </div>
                     <div className='bkshari'>
-                    <img className='imgharilist' src={list}/>
+                    <img className='imgharilist' alt='imgharilist' src={list}/>
                     </div>    
                     <div className='bkshari'>
                         <label className='txtpkl'>16.00 S/D 17.00 WIB</label>
@@ -67,7 +67,7 @@ const Place =()=>{
                         <label className='txtbulan'>JANUARY</label>
                     </div>
                     <div className='bkshari1'>
-                    <img className='imgtahunlist' src={list}/>
+                    <img className='imgtahunlist' alt='imgtahunlist' src={list}/>
                     </div>     
                     <div className='bkshari1'>
                         <label className='txttahun'>2021</label>
@@ -100,7 +100,7 @@ const Place =()=>{
                         <label className='txthariresepsi'>SABTU</label>
                     </div>
                     <div className='bkshariresepsi'>
-                    <img className='imgtahunresepsilisthari' src={list}/>
+                    <img className='imgtahunresepsilisthari' alt='imgtahunresepsilisthari' src={list}/>
                     </div>    
                     <div className='bkshariresepsi'>
                         <label className='txtpklresepsi'>19.00 S/D 20.00 WIB</label>
@@ -115,7 +115,7 @@ const Place =()=>{
                         <label className='txtbulanresepsi'>JANUARY</label>
                     </div>
                     <div className='bkshariresepsi1'>
-                    <img className='imgtahunresepsilist' src={list}/>
+                    <img className='imgtahunresepsilist' alt='imgtahunresepsilist' src={list}/>
                     </div>    
                     <div className='bkshariresepsi1'>
                         <label className='txttahunresepsi'>2021</label>
