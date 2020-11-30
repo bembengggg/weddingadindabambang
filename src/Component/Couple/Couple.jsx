@@ -1,6 +1,5 @@
 import React from 'react';
 import './Couple.css';
-// import couple from '../Couple/Wedding.jpg';
 import couple from '../Cover/bgimage.jpg';
 import bismillah from '../../Assets/image/bismillah.png';
 import dinda from '../../Assets/image/dinda.PNG';
