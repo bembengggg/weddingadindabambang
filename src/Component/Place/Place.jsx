@@ -1,10 +1,11 @@
-import React,{useState,Fragment} from 'react';
+import React,{useState,Fragment,useEffect} from 'react';
 import './Place.css';
 import place from '../Cover/bgimage.jpg';
-import list from '../../Assets/image/list.png';;
+import list from '../../Assets/image/list.png';
+import Sampul from '../Sampul/Sampul';
 import Modal from './Modal';
-import { useParams,useRouteMatch } from 'react-router-dom';
-
+import { useLocation, useParams,useHistory,useRouteMatch } from 'react-router-dom';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 
 const Place =()=>{
