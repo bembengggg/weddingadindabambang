@@ -6,7 +6,7 @@ import gallery from '../Gallery/bgimage.jpg';
 const Gallery =()=>{
     return(
         <div className='wrap'>
-           <img className='imgbg' alt=''src={gallery}/>
+           <img className='imgbg' alt='imgbg'src={gallery}/>
            <div className='slider'>
                <div className='thumbnail nail-1'>1</div>
                <div className='thumbnail nail-2'>2</div>
