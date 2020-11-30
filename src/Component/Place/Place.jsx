@@ -52,7 +52,7 @@ const Place =()=>{
                         <label className='txthari'>SABTU</label>
                     </div>
                     <div className='bkshari'>
-                    <img className='imgharilist' alt='imgharilist' src={list}/>
+                    <img className='imgharilist' alt='' src={list}/>
                     </div>    
                     <div className='bkshari'>
                         <label className='txtpkl'>16.00 S/D 17.00 WIB</label>
@@ -67,7 +67,7 @@ const Place =()=>{
                         <label className='txtbulan'>JANUARY</label>
                     </div>
                     <div className='bkshari1'>
-                    <img className='imgtahunlist' alt='imgtahunlist' src={list}/>
+                    <img className='imgtahunlist' alt='' src={list}/>
                     </div>     
                     <div className='bkshari1'>
                         <label className='txttahun'>2021</label>
@@ -115,7 +115,7 @@ const Place =()=>{
                         <label className='txtbulanresepsi'>JANUARY</label>
                     </div>
                     <div className='bkshariresepsi1'>
-                    <img className='imgtahunresepsilist' alt='imgtahunresepsilist' src={list}/>
+                    <img className='imgtahunresepsilist' alt='' src={list}/>
                     </div>    
                     <div className='bkshariresepsi1'>
                         <label className='txttahunresepsi'>2021</label>

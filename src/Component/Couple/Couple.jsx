@@ -11,7 +11,7 @@ import IG from '../../Assets/image/IG.png';
 const Couple =()=>{
     return(
         <div className='wrapcover'>
-           <img className='imgcouple' src={couple} alt="couple"/>
+           <img className='imgcouple' src={couple} alt=''/>
            <div className='htopbsmlh'>
                 <label className='txtbsmlh'>Bismillahirrahmanirrahim</label>
             </div>
@@ -25,12 +25,12 @@ const Couple =()=>{
                 <label className='txtbpk'>BAPAK/IBU/SAUDARA/I ACARA RESEPSI PERNIKAHAN</label>
             </div>
             <div className='htopb'>
-            <img className='htopimg' src={bismillah} alt='htopimg'/>
+            <img className='htopimg' src={bismillah} alt=''/>
             </div>
             
             <div className='wrappingimg'>
             <a className='linkig' href='https://www.instagram.com/adindarfitrianisa/'>
-                <img className='imgw'  src={dinda} alt='imgw'/>
+                <img className='imgw'  src={dinda} alt=''/>
                 </a>
             </div>
             
@@ -39,7 +39,7 @@ const Couple =()=>{
                 <label className='txtw'>ADINDA RIZKI FITRIANISA,S.Tr.Keb.</label>
             </div>
             <div className='htoplistw'>
-            <img className='imglistw' src={list} alt='imglistw'/>
+            <img className='imglistw' src={list} alt=''/>
             </div>
             <div className='htopwptk'>
                 <label className='txtptk'>PUTRI KEDUA</label>
@@ -53,7 +53,7 @@ const Couple =()=>{
             </div>
             <div className='wrapIG'>
             <div className='imgig'>
-            <img className='imglistig' src={IG} alt='imglistig'/>
+            <img className='imglistig' src={IG} alt=''/>
             </div>
             <div className='namaig'>
                 <label className='txtwig'>Adindarfitrianisa</label>
@@ -65,7 +65,7 @@ const Couple =()=>{
 
              <div className='wrappingimgl'>
              <a className='linkig' href='https://www.instagram.com/bembengggg/'>
-                <img alt='nama' className='imgl' src={bambang}/>
+                <img alt='' className='imgl' src={bambang}/>
                 </a> 
             </div>
             
@@ -77,7 +77,7 @@ const Couple =()=>{
                 <label className='txtl'>BAMBANG KURNIAWAN WIBOWO,S.Kom</label>
             </div>
             <div className='htoplistl'>
-            <img className='imglistl' alt='imglistl' src={list}/>
+            <img className='imglistl' alt='' src={list}/>
             </div>
             <div className='htoplbpk'>
                 <label className='txtlbpk'>Bapak Supriyanto(Alm)</label>
@@ -88,7 +88,7 @@ const Couple =()=>{
             </div>
             <div className='wraplIG'>
             <div className='imglig'>
-            <img className='imglistlig' alt='imglistlig'  src={IG}/>
+            <img className='imglistlig' alt=''  src={IG}/>
             </div>
             <div className='namalig'>
                 <label className='txtlig'>Bembengggg</label>
