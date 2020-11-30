@@ -1,9 +1,8 @@
-import React, {Component,Fragment} from 'react';
-import ReactDOM from 'react-dom';
+import React, {Component} from 'react';
 import './NavBottom.css';
-import { faHome,faImages,faHeart,faQrcode,faMapMarkerAlt,faEnvelope,faTags,faCalendar } from "@fortawesome/free-solid-svg-icons";
+import { faHome,faImages,faHeart,faEnvelope,faCalendar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {BrowserRouter as Router,Route,Link,Redirect} from 'react-router-dom';
+import {BrowserRouter as Router,Route,Link} from 'react-router-dom';
 import Cover from '../Cover/Cover';
 import Couple from '../Couple/Couple';
 import Gallery from '../Gallery/Gallery';
