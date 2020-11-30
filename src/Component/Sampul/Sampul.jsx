@@ -3,7 +3,7 @@ import './Sampul.css';
 import container from '../Sampul/container.jpg';
 import audio from '../../Assets/MP3/sepertiga.mp3';
 import NavBottom from '../../Component/NavBottom/NavBottom';
-import {BrowserRouter as Router,Route,Link,Redirect} from 'react-router-dom';
+
 
 
 class Sampul extends Component{

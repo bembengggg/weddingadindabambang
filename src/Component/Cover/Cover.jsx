@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
 import './Cover.css';
 import cover from '../Cover/bgimage.jpg';
-import abadi from '../../Assets/image/ABADI.PNG';
+
 
 
 
