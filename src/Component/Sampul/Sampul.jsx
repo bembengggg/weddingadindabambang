@@ -59,10 +59,10 @@ class Sampul extends Component{
           <div className='bkslabelnama'>
               <div className='wrapperin'>
                 <div className='lblnm'>
-                  <label className='labelnama'>{this.props.match.params.nama}</label>
+                  <label className='labeltempatku'>{this.props.match.params.nama}</label>
                   </div>
                   <div className='lbltmpt'>
-                  <label className='labeltempat'>Di</label>
+                  <label className='labeltempatku'>Di</label>
                   </div>
                   <div className='lbltmptku'>
                   <label className='labeltempatku'>{this.props.match.params.tempat}</label>
