@@ -1,14 +1,14 @@
-import React,{useState,Fragment,useEffect} from 'react';
+import React,{useState,Fragment} from 'react';
 import './Place.css';
 import place from '../Cover/bgimage.jpg';
 import list from '../../Assets/image/list.png';
 import Modal from './Modal';
-import { useParams,useRouteMatch } from 'react-router-dom';
+import { useParams} from 'react-router-dom';
 
 
 
 const Place =()=>{
-    const location = useRouteMatch();
+
     const {nama}=useParams();
     console.log(nama);
     
