@@ -20,6 +20,9 @@ const Gallery =()=>{
     return(
         <div className='wrap'>
            <img className='imgbg' alt='imgbg'src={gallery}/>
+           <div className='bksrangkaian'>
+                <div className='bksrangkaian1'>Gallery</div>
+           </div>
            <div className='grid'>
            <img alt='imgbg1'src={bambang10}/>
            <img alt='imgbg2'src={bambang4}/>
