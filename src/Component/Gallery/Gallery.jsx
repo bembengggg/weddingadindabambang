@@ -20,8 +20,12 @@ const Gallery =()=>{
     return(
         <div className='wrap'>
            <img className='imgbg' alt='imgbg'src={gallery}/>
+           <div className='formbtn'>
+           {/* <button className="btn" onClick={event =>  window.location.href='https://api.whatsapp.com/send?phone=6281367649724&text=Halo%20Saya%20Akan%20Datang%20KePernikahan%20anda'}>Watch On Youtube</button> */}
+           <iframe width="100%" height="315" src="https://www.youtube.com/embed/CPKqZB7C-cI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
            <div className='bksrangkaian'>
-                <div className='bksrangkaian1'>Gallery</div>
+                <div className='bks'>Galery</div>
            </div>
            <div className='grid'>
            <img alt='imgbg1'src={bambang10}/>
@@ -36,9 +40,8 @@ const Gallery =()=>{
            <img alt='imgbg10'src={bambang1}/>
            <img alt='imgbg11'src={bambang2}/>
            <img alt='imgbg12'src={bambang6}/>
-            
-
            </div>
+        
          </div>
     
 
