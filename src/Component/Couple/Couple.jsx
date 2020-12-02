@@ -83,7 +83,7 @@ const Couple =()=>{
                 <label className='txtlbpk'>Bapak Supriyanto(Alm)</label>
             </div>
             <div className='htoplibu'>
-                <label className='txtlibu'>Ibu Nurwilis</label>
+                <label className='txtlibu'>Ibu Nurwilis(Almarhumah)</label>
             </div> 
             </div>
             <div className='wraplIG'>
