@@ -53,17 +53,17 @@
             width: 100%;
             display: grid;
             grid-template-columns: repeat(5, 1fr);
-            grid-gap: 10px;
+            grid-gap: 1px;
             align-items: start;
             justify-items: center;
-            background-color: cadetblue;
+            
 
         }
         .grid img {
             max-width: 100%;
             background-color: teal;
           }
-          .grid a:nth-child(2) {
+          .grid img:nth-child(2) {
             grid-column: span 3;
             grid-row: span 3;
             }
