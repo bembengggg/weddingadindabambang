@@ -28,18 +28,18 @@ const Gallery =()=>{
                 <div className='bks'>Galery</div>
            </div>
            <div className='grid'>
-           <img alt='imgbg1'src={bambang10}/>
-           <img alt='imgbg2'src={bambang4}/>
-           <img alt='imgbg3'src={bambang3}/>
-           <img alt='imgbg4'src={bambang11}/>
-           <img alt='imgbg5'src={bambang5}/>
-           <img alt='imgbg6'src={bambang12}/>
-           <img alt='imgbg7'src={bambang7}/>
-           <img alt='imgbg8'src={bambang8}/>
-           <img alt='imgbg9'src={bambang9}/>
-           <img alt='imgbg10'src={bambang1}/>
-           <img alt='imgbg11'src={bambang2}/>
-           <img alt='imgbg12'src={bambang6}/>
+          <a href={bambang10}><img alt='imgbg1'src={bambang10}/></a> 
+          <a href={bambang4}><img alt='imgbg2'src={bambang4}/></a>  
+          <a href={bambang3}><img alt='imgbg3'src={bambang3}/></a>
+          <a href={bambang11}> <img alt='imgbg4'src={bambang11}/></a>
+          <a href={bambang5}> <img alt='imgbg5'src={bambang5}/></a> 
+          <a href={bambang12}><img alt='imgbg6'src={bambang12}/></a>  
+          <a href={bambang7}><img alt='imgbg7'src={bambang7}/></a> 
+          <a href={bambang8}><img alt='imgbg8'src={bambang8}/></a>  
+          <a href={bambang9}><img alt='imgbg9'src={bambang9}/></a> 
+          <a href={bambang1}><img alt='imgbg10'src={bambang1}/></a>
+          <a href={bambang2}><img alt='imgbg11'src={bambang2}/></a>
+          <a href={bambang6}><img alt='imgbg12'src={bambang6}/></a>
            </div>
         
          </div>
