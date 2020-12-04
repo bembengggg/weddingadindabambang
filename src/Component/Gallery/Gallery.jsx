@@ -15,6 +15,19 @@ const options = {
     captionFontFamily: "Raleway, sans-serif",
     captionFontWeight: "300",
     captionTextTransform: "uppercase",
+  }, 
+   buttons: {
+    backgroundColor: 'rgba(30,30,36,0.8)',
+    iconColor: 'rgba(255, 255, 255, 0.8)',
+    iconPadding: '5px',
+    showAutoplayButton: true,
+    showCloseButton: true,
+    showDownloadButton: false,
+    showFullscreenButton: false,
+    showNextButton: true,
+    showPrevButton: true,
+    showThumbnailsButton: true,
+    size: '40px'
   }
 };
 
@@ -36,7 +49,7 @@ const Gallery =()=>{
              <div className='grid'>
                <SRLWrapper options={options}>
               <img alt='imgbg1'src='https://i.ibb.co/j64bvBv/bambang10.jpg'/>
-              <img alt='aaaaaaaaaaaaaaaasdsadsaddddddddddddddddddddddddddasdsadasdd'src='https://i.ibb.co/LkpSpQx/bambang4.png'/> 
+              <img alt='berpegang teguh dengan komitmen'src='https://i.ibb.co/LkpSpQx/bambang4.png'/> 
               <img alt='imgbg3'src='https://i.ibb.co/BP4hbDS/bambang3.jpg'/>
               <img alt='imgbg4'src='https://i.ibb.co/my1ShF5/bambang11.jpg'/>
               <img alt='imgbg5'src='https://i.ibb.co/1ZNr8Dy/bambang5.jpg'/>
