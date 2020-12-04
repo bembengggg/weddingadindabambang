@@ -1,7 +1,7 @@
 import React from 'react';
 import './Gallery.css';
 import gallery from '../Gallery/bgimage.jpg';
-import bambang1 from '../../Assets/image/bambang1.jpg';
+import bambang1 from 'https://i.ibb.co/XtHgLGF/bambang1.jpg';
 import bambang2 from '../../Assets/image/bambang2.jpg';
 import bambang3 from '../../Assets/image/bambang3.jpg';
 import bambang4 from '../../Assets/image/bambang4.png';
