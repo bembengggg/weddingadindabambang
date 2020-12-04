@@ -5,8 +5,10 @@ import gallery from '../../Assets/image/bgimage.jpg';
 import SimpleReactlightbox,{SRLWrapper} from "simple-react-lightbox";
 const options = {
   settings: {
-    autoplaySpeed: 1500,
-    transitionSpeed: 900,
+    slideAnimationType: "fade",
+    slideSpringValues: [300, 200],
+    autoplaySpeed: 3000,
+    hideControlsAfter: false
   },
   caption: {
     captionColor: "#9C6615",
@@ -34,7 +36,7 @@ const Gallery =()=>{
              <div className='grid'>
                <SRLWrapper options={options}>
               <img alt='imgbg1'src='https://i.ibb.co/j64bvBv/bambang10.jpg'/>
-              <img alt='imgbg2'src='https://i.ibb.co/LkpSpQx/bambang4.png'/> 
+              <img alt='aaaaaaaaaaaaaaaasdsadsaddddddddddddddddddddddddddasdsadasdd'src='https://i.ibb.co/LkpSpQx/bambang4.png'/> 
               <img alt='imgbg3'src='https://i.ibb.co/BP4hbDS/bambang3.jpg'/>
               <img alt='imgbg4'src='https://i.ibb.co/my1ShF5/bambang11.jpg'/>
               <img alt='imgbg5'src='https://i.ibb.co/1ZNr8Dy/bambang5.jpg'/>
