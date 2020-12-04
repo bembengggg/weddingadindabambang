@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import './Sampul.css';
-import container from '../Sampul/container.jpg';
 import audio from '../../Assets/MP3/sepertiga.mp3';
 import NavBottom from '../../Component/NavBottom/NavBottom';
+import cover from '../Cover/bgimage.jpg';
 
 
 
@@ -53,7 +53,7 @@ class Sampul extends Component{
         return (
           
           <div className='container'>
-          <img className='buku' alt='buku' src={container}/>
+          <img className='buku' alt='buku' src={cover}/>
           <div className='wrappernama'>
           <div className='bkslabelnama'>
               <div className='wrapperin'>
