@@ -9,7 +9,7 @@ const options = {
     transitionSpeed: 900,
   },
   caption: {
-    captionColor: "#a6cfa5",
+    captionColor: "#9C6615",
     captionFontFamily: "Raleway, sans-serif",
     captionFontWeight: "300",
     captionTextTransform: "uppercase",

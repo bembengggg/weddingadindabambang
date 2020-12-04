@@ -36,9 +36,12 @@ class Sampul extends Component{
 
 
       }
+   
       render(){
 
         console.log(this.props.match.params);
+        console.log(this.setState.play)
+       
           
 
         if (this.state.isActive) {
