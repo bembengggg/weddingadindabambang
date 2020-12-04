@@ -22,12 +22,11 @@ class Sampul extends Component{
     this.audio = new Audio(audio);
         }
   
-        // handleCounterChange=(newValue)=>{
-        //   this.props.onCounterChange(newValue); 
-        // }
+
 
     playAudio=()=> {
-        this.setState({ play: true, 
+        this.setState({ 
+        play: true, 
         pause: false })
         this.audio.play();
         this.setState({
