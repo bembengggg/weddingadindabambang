@@ -1,28 +1,12 @@
 import React from 'react';
 import './Gallery.css';
 import gallery from '../Gallery/bgimage.jpg';
-import bambang1 from 'https://i.ibb.co/XtHgLGF/bambang1.jpg';
-import bambang2 from '../../Assets/image/bambang2.jpg';
-import bambang3 from '../../Assets/image/bambang3.jpg';
-import bambang4 from '../../Assets/image/bambang4.png';
-import bambang5 from '../../Assets/image/bambang5.jpg';
-import bambang6 from '../../Assets/image/bambang6.jpg';
-import bambang7 from '../../Assets/image/bambang7.png';
-import bambang8 from '../../Assets/image/bambang8.jpg';
-import bambang9 from '../../Assets/image/bambang9.jpg';
-import bambang10 from '../../Assets/image/bambang10.jpg';
-import bambang11 from '../../Assets/image/bambang11.jpg';
-import bambang12 from '../../Assets/image/bambang12.jpg';
+
 import SimpleReactlightbox,{SRLWrapper} from "simple-react-lightbox";
 const options = {
   settings: {
-    overlayColor: "rgb(25, 136, 124)",
     autoplaySpeed: 1500,
     transitionSpeed: 900,
-  },
-  buttons: {
-    backgroundColor: "#1b5245",
-    iconColor: "rgba(126, 172, 139, 0.8)",
   },
   caption: {
     captionColor: "#a6cfa5",
@@ -49,18 +33,18 @@ const Gallery =()=>{
              <SimpleReactlightbox>
              <div className='grid'>
                <SRLWrapper options={options}>
-              <img alt='imgbg1'src={bambang10}/>
-              <img alt='imgbg2'src={bambang4}/> 
-              <img alt='imgbg3'src={bambang3}/>
-              <img alt='imgbg4'src={bambang11}/>
-              <img alt='imgbg5'src={bambang5}/>
-              <img alt='imgbg6'src={bambang12}/> 
-              <img alt='imgbg7'src={bambang7}/>
-              <img alt='imgbg8'src={bambang8}/>
-              <img alt='imgbg9'src={bambang9}/>
-              <img alt='imgbg10'src={bambang1}/>
-              <img alt='imgbg11'src={bambang2}/>
-              <img alt='imgbg12'src={bambang6}/>
+              <img alt='imgbg1'src='https://i.ibb.co/j64bvBv/bambang10.jpg'/>
+              <img alt='imgbg2'src='https://i.ibb.co/LkpSpQx/bambang4.png'/> 
+              <img alt='imgbg3'src='https://i.ibb.co/BP4hbDS/bambang3.jpg'/>
+              <img alt='imgbg4'src='https://i.ibb.co/my1ShF5/bambang11.jpg'/>
+              <img alt='imgbg5'src='https://i.ibb.co/1ZNr8Dy/bambang5.jpg'/>
+              <img alt='imgbg6'src='https://i.ibb.co/tKVvzY7/bambang12.jpg'/> 
+              <img alt='imgbg7'src='https://i.ibb.co/FzwjTb7/bambang7.png'/>
+              <img alt='imgbg8'src='https://i.ibb.co/9yzsrRv/bambang8.jpg'/>
+              <img alt='imgbg9'src='https://i.ibb.co/NYbSFd0/bambang9.jpg'/>
+              <img alt='imgbg10'src='https://i.ibb.co/XtHgLGF/bambang1.jpg'/>
+              <img alt='imgbg11'src='https://i.ibb.co/hdchMMS/bambang2.jpg'/>
+              <img alt='imgbg12'src='https://i.ibb.co/cYYHRx0/bambang6.jpg'/>
               </SRLWrapper>
            </div>
 

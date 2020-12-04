@@ -1,11 +1,7 @@
 import React from 'react';
 import './Couple.css';
 import couple from '../Cover/bgimage.jpg';
-import bismillah from '../../Assets/image/bismillah.png';
-import dinda from '../../Assets/image/dinda.PNG';
-import bambang from '../../Assets/image/bambang.PNG';
-import list from '../../Assets/image/list.png';
-import IG from '../../Assets/image/IG.png';
+
 
 
 const Couple =()=>{
@@ -25,12 +21,12 @@ const Couple =()=>{
                 <label className='txtbpk'>BAPAK/IBU/SAUDARA/I ACARA RESEPSI PERNIKAHAN</label>
             </div>
             <div className='htopb'>
-            <img className='htopimg' src={bismillah} alt=''/>
+            <img className='htopimg' src='https://i.ibb.co/6byZMS3/bismillah.png' alt='bismillah'/>
             </div>
             
             <div className='wrappingimg'>
             <a className='linkig' href='https://www.instagram.com/adindarfitrianisa/'>
-                <img className='imgw'  src={dinda} alt=''/>
+                <img className='imgw'  src='https://i.ibb.co/WzD5HHD/dinda.png' alt='dinda'/>
                 </a>
             </div>
             
@@ -39,7 +35,7 @@ const Couple =()=>{
                 <label className='txtw'>ADINDA RIZKI FITRIANISA,S.Tr.Keb.</label>
             </div>
             <div className='htoplistw'>
-            <img className='imglistw' src={list} alt=''/>
+            <img className='imglistw' src='https://i.ibb.co/fdmtjh7/list.png' alt='list'/>
             </div>
             <div className='htopwptk'>
                 <label className='txtptk'>PUTRI KEDUA</label>
@@ -53,7 +49,7 @@ const Couple =()=>{
             </div>
             <div className='wrapIG'>
             <div className='imgig'>
-            <img className='imglistig' src={IG} alt=''/>
+            <img className='imglistig' src='https://i.ibb.co/bdrmnXs/IG.png' alt='IG'/>
             </div>
             <div className='namaig'>
                 <label className='txtwig'>Adindarfitrianisa</label>
@@ -64,8 +60,8 @@ const Couple =()=>{
             </div>
 
              <div className='wrappingimgl'>
-             <a className='linkig' href='https://www.instagram.com/bembengggg/'>
-                <img alt='' className='imgl' src={bambang}/>
+             <a href='https://www.instagram.com/bembengggg/'>
+                <img alt='bambang' className='imgl' src='https://i.ibb.co/VVzjrTM/bambang.png'/>
                 </a> 
             </div>
             
@@ -77,7 +73,7 @@ const Couple =()=>{
                 <label className='txtl'>BAMBANG KURNIAWAN WIBOWO,S.Kom</label>
             </div>
             <div className='htoplistl'>
-            <img className='imglistl' alt='' src={list}/>
+            <img className='imglistl' alt='list' src='https://i.ibb.co/fdmtjh7/list.png'/>
             </div>
             <div className='htoplbpk'>
                 <label className='txtlbpk'>Bapak Supriyanto(Alm)</label>
@@ -88,7 +84,7 @@ const Couple =()=>{
             </div>
             <div className='wraplIG'>
             <div className='imglig'>
-            <img className='imglistlig' alt=''  src={IG}/>
+            <img className='imglistlig' alt='IG'  src='https://i.ibb.co/bdrmnXs/IG.png'/>
             </div>
             <div className='namalig'>
                 <label className='txtlig'>Bembengggg</label>
