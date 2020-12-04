@@ -14,7 +14,23 @@ import bambang10 from '../../Assets/image/bambang10.jpg';
 import bambang11 from '../../Assets/image/bambang11.jpg';
 import bambang12 from '../../Assets/image/bambang12.jpg';
 import SimpleReactlightbox,{SRLWrapper} from "simple-react-lightbox";
-
+const options = {
+  settings: {
+    overlayColor: "rgb(25, 136, 124)",
+    autoplaySpeed: 1500,
+    transitionSpeed: 900,
+  },
+  buttons: {
+    backgroundColor: "#1b5245",
+    iconColor: "rgba(126, 172, 139, 0.8)",
+  },
+  caption: {
+    captionColor: "#a6cfa5",
+    captionFontFamily: "Raleway, sans-serif",
+    captionFontWeight: "300",
+    captionTextTransform: "uppercase",
+  }
+};
 
 
 
@@ -32,7 +48,7 @@ const Gallery =()=>{
            <div className='App'>
              <SimpleReactlightbox>
              <div className='grid'>
-               <SRLWrapper>
+               <SRLWrapper options={options}>
               <img alt='imgbg1'src={bambang10}/>
               <img alt='imgbg2'src={bambang4}/> 
               <img alt='imgbg3'src={bambang3}/>
