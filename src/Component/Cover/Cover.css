@@ -20,7 +20,7 @@
     border-radius: 1.7%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: -35px center;
+    background-position: center;
     opacity: 0.4;
 }
 .imgpict{
@@ -695,7 +695,7 @@ to{
     position: absolute;
     top: 0%;
     border-radius: 1.7%;
-    background-position: -35px center;
+
     
     }
     .imgpict{
