@@ -1,6 +1,6 @@
 import React from 'react';
 import './Couple.css';
-import couple from '../Cover/bgimage.jpg';
+import couple from '../../Assets/image/bgimage.jpg';
 
 
 
@@ -25,7 +25,7 @@ const Couple =()=>{
             </div>
             
             <div className='wrappingimg'>
-            <a className='linkig' href='https://www.instagram.com/adindarfitrianisa/'>
+            <a href='https://www.instagram.com/adindarfitrianisa/'>
                 <img className='imgw'  src='https://i.ibb.co/WzD5HHD/dinda.png' alt='dinda'/>
                 </a>
             </div>

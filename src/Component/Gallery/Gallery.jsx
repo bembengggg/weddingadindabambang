@@ -1,6 +1,6 @@
 import React from 'react';
 import './Gallery.css';
-import gallery from '../Gallery/bgimage.jpg';
+import gallery from '../../Assets/image/bgimage.jpg';
 
 import SimpleReactlightbox,{SRLWrapper} from "simple-react-lightbox";
 const options = {

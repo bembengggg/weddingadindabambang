@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './Cover.css';
-import cover from '../Cover/bgimage.jpg';
+import cover from '../../Assets/image/bgimage.jpg';
 
 
 

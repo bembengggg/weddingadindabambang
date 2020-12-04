@@ -1,6 +1,6 @@
 import React,{useState,Fragment} from 'react';
 import './Place.css';
-import place from '../Cover/bgimage.jpg';
+import place from '../../Assets/image/bgimage.jpg';
 import Modal from './Modal';
 import { useParams} from 'react-router-dom';
 
